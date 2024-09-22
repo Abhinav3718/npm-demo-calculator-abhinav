@@ -1,0 +1,11 @@
+{
+  "name": "npm-demo-calculator-abhinav",
+  "version": "0.0.1",
+  "description": "test library to perform some calculations and understand npm private and public",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
