@@ -5,8 +5,8 @@ const useCalculator = () => {
     const [firstNumber, setFirstNumber] = useState<number>(0);
     const [secondNumber, setSecondNumber] = useState<number>(0);
 
-    const sum = useCallback((num1: number, num2: number) => {
-       return num1 + num2;
+    const sum = useCallback((num1: any, num2: any) => {
+       return parseInt(num1) + parseInt(num2);
     }, []);
 
     const difference = useCallback((num1: number, num2: number) => {
