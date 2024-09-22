@@ -1,6 +1,6 @@
 {
-  "name": "npm-demo-calculator-abhinav",
-  "version": "0.0.3",
+  "name": "@myorganizationfortest/npm-demo-calculator-abhinav",
+  "version": "0.0.4",
   "description": "test library to perform some calculations and understand npm private and public",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
