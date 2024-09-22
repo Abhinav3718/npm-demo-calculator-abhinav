@@ -5,20 +5,16 @@ const useCalculator = () => {
     const [firstNumber, setFirstNumber] = useState<number>(0);
     const [secondNumber, setSecondNumber] = useState<number>(0);
 
-    const sum = useCallback((...args: number[]) => {
-        return args.reduce((sum, current) => {
-            return current + sum;
-        }, 0)
+    const sum = useCallback((num1: number, num2: number) => {
+       return num1 + num2;
     }, []);
 
-    const difference = useCallback((n1: number, n2: number) => {
-        return Math.abs(n1 - n2);
+    const difference = useCallback((num1: number, num2: number) => {
+        return Math.abs(num1 - num2);
     }, []);
 
-    const multiply = useCallback((...args: number[]) => {
-        return args.reduce((total, current) => {
-            return current * total;
-        }, 0);
+    const multiply = useCallback((num1: number, num2: number) => {
+        return num1 * num2;
     }, []);
 
     const eventTypes = {
